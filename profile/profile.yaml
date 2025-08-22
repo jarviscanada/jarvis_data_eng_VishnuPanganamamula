@@ -1,0 +1,126 @@
+# Preferred name (Characters only)
+name: "Vishnu Panganamamula"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_VishnuPanganamamula
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: Hello! I am Vishnu Panganamamula and I am a recent computer engineering graduate (June 2025) from Toronto Metropolitan University (formerly Ryerson University). I have hands-on experience working with full-stack development, cloud services and AI/ML. I currently work at Jarvis as a data engineer, where I work on projects that will prepare me for industry level work in the future. I am eager to contribute to meaningful projects where I can use my problem-solving and programming skills to create impactful solutions.      
+  
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Java
+    - Linux/Bash
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git
+  # At least 5 skills
+  competent:
+    - Python
+    - Docker
+    - Tensorflow
+    - PyTorch
+    - Google Cloud/Azure
+  # At least 5 skills
+  familiar:
+    - React.js
+    - Javascript
+    - Kubernetes
+    - C/C++
+    - Firebase
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_VishnuPanganamamula/tree/develop/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Used Linux commands, Bash scripting, PostgreSQL database and Docker to create a Linux Cluster Monitoring Tool. The monitoring system records specific hardware information of a host VM and what resources of the system are being used. This usage data is recorded and monitored from a host VM running Rocky Linux in real time. The data for the host usage is collected and stored in the PostgreSQL database regularly, allowing users to check their VM usage activity.
+  - name: "Core Java Apps"
+    git_url: "/core_java"
+    description:
+      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+  - name: "Springboot App"
+    git_url: "/springboot"
+    description: ""
+  - name: "Python Data Analytics"
+    git_url: "/python_data_anlytics"
+    description: ""
+  - name: "Hadoop"
+    git_url: "/hadoop"
+    description: ""
+  - name: "Spark"
+    git_url: "/spark"
+    description: ""
+  - name: "Cloud/DevOps"
+    git_url: "/cloud_devops"
+    description: ""
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "Societal Unrest Prediction Model"
+    #URL is optional
+    git_url: "https://github.com/vishnupan819/unrest_data"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Developed logistic regression model and random forest classifier to predict monthly unrest events across 50 global regions based on 10 years of economic, environmental, and sociopolitical indicators
+Engineered temporal and interaction-based features and applied time-series cross-validation to improve recall from <5% to ~95%while maintaining high precision and overall model performance (F1, AUC-ROC > 90%)
+Proposed actionable policy analyst alert rules based on feature importances and output probability thresholds"
+  - name: "Medical Imaging Diagnosis Tool"
+    git_url: "https://github.com/skadri342/chest-imaging-diagnosis-tool-capstone"
+    description: "Led model development for lung disease classification using CNNs (ResNet-50, EfficientNet-B4, DenseNet-121) and the NIH Chest X-rays Dataset (~112k images)
+Designed and tested a custom CNN (based on LeNet) with batch normalization and BCEWithLogitsLoss; results informed shift to more effective pre-trained models
+Implemented pre-trained U-Net for disease segmentation and for visual purposes, improving interpretability and localization of model predictions
+Built and optimized data pipelines using tf.data for efficient data loading and training performance
+Contributed to model selection, hyperparameter tuning and performance evaluation of models
+Trained and optimized models to reach up to 90%+ prediction accuracy for lung diseases"
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Data Engineer"
+    company: "Jarvis"
+    duration: "July 2025-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Developing industry related projects within a dynamic Agile/Scrum environment."
+  - title: "AI Software Developer Intern"
+    company: "Vosyn Inc."
+    duration: "Sept. 2023-Dec. 2023"
+    description: "Spearheaded research on LLMs, TTS and STT systems, contributing key insights that shaped software architecture decisions for Vosyn's AI platforms
+Fine-tuned the Bark TTS model to enhance multilingual accuracy and speech-to-text reliability, improving model performance across diverse languages
+Customized Whisper AI for Japanese audio-to-text translation, increasing transcription accuracy through iterative testing on varied audio outputs
+Designed and implemented a robust data pipeline model and database system and backend for VosynVerse project with PostgreSQL and Django, supporting seamless data integration and scalability
+Conducted risk assessments and safety documentation for Vosyn LLM features, proactively identifying development bottlenecks and offering mitigation strategies"
+
+#List of edcuation
+education: 
+  - school_name: "Toronto Metropolitan University"
+    duration: "Sept. 2020-June 2025"
+    degree: "Bachelor of Engineering"
+    department: "Electrical and Computer Engineering"
+    # optional
+    awards_achievements: 
+      - "Dean's List (Fall 2024): Earned Dean's List award for Fall 2024 for outstanding academic excellence"
+#Optional section
+others:
+    #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "Udacity Machine Learning (2019)"
+  - title: "Awards"
+    bullets:
+      - "Winner"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Combat Sports (Boxing)"
+      - "Casual Gamer"
+      - "Drummer"
