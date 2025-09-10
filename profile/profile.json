@@ -1,0 +1,89 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "Dean's List (Fall 2024): Earned Dean's List award for Fall 2024 for outstanding academic excellence"
+      ],
+      "degree": "Bachelor of Engineering",
+      "department": "Electrical and Computer Engineering",
+      "duration": "Sept. 2020-June 2025",
+      "school_name": "Toronto Metropolitan University"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_VishnuPanganamamula",
+  "highlighted_projects": [
+    {
+      "description": "Built logistic regression and random forest models to predict monthly unrest events across 50 regions (10 years of data), achieving F1/AUC-ROC \u003e 90%\nImproved recall from \u003c5% to ~95% through feature engineering (temporal + interaction-based) and time-series cross-validation\nDeveloped policy analyst alert rules using feature importances and probability thresholds for actionable insights\n",
+      "git_url": "https://github.com/vishnupan819/unrest_data",
+      "name": "Societal Unrest Prediction Model"
+    },
+    {
+      "description": "Built and optimized CNN-based models (ResNet-50, DenseNet-121), achieving 90%+ accuracy\nEnhanced x-ray image interpretability using U-Net segmentation for disease localization\nOptimized tf.data pipelines to improve training performance, efficiency and prediction capabilities\nImproved training times from 20 minutes per epoch to 2 minutes per epoch after pipeline optimization\nImproved model accuracy from 15% to 90%+ for both CNN-based models after pipeline optimization\n",
+      "git_url": "https://github.com/skadri342/chest-imaging-diagnosis-tool-capstone",
+      "name": "Medical Imaging Diagnosis Tool"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Used Linux commands, Bash scripting, PostgreSQL database and Docker to create a Linux Cluster Monitoring Tool. The monitoring system records specific hardware information of a host VM and what resources of the system are being used. This usage data is recorded and monitored from a host VM running Rocky Linux in real time. The data for the host usage is collected and stored in the PostgreSQL database regularly, allowing users to check their VM usage activity.",
+      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_VishnuPanganamamula/tree/develop/linux_sql",
+      "name": "Cluster Monitor"
+    }
+  ],
+  "name": "Vishnu Panganamamula",
+  "others": [
+    {
+      "bullets": [
+        "Combat Sports (Boxing)",
+        "Casual Gamer",
+        "Drummer"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Developing industry related projects within a dynamic Agile/Scrum environment.",
+      "duration": "July 2025-present",
+      "title": "Data Engineer"
+    },
+    {
+      "company": "Vosyn Inc.",
+      "description": "Researched and prototyped LLM, TTS and STT systems, shaping architecture for Vosyn's AI platform\nFine-tuned Bark TTS, improving multilingual accuracy by 10% across 3 langauges\nCustomized Whisper (LLM with 60M parameters) for Japanese TTS, boosting translation accuracy by 8%\nDeveloped scalable backend and database using Django/PostgreSQL, supporting seamless integration\nAuthored risk/safety assessments of for LLM features, identifying 20 bottlenecks and recommending strategies to mitigate risks\n",
+      "duration": "Sept. 2023-Dec. 2023",
+      "title": "AI Software Developer Intern"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "FastAPI",
+      "Docker",
+      "Tensorflow",
+      "PyTorch",
+      "Google Cloud/Azure",
+      "HuggingFace",
+      "LLMs",
+      "sci-kit learn"
+    ],
+    "familiar": [
+      "React.js",
+      "Node.js",
+      "RabbitMQ",
+      "Javascript",
+      "Kubernetes",
+      "C/C++",
+      "Firebase",
+      "NLTK"
+    ],
+    "proficient": [
+      "Python",
+      "Java",
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Git"
+    ]
+  },
+  "summary": "Hello! I am Vishnu Panganamamula and I am a recent computer engineering graduate (June 2025) from Toronto Metropolitan University (formerly Ryerson University). I have hands-on experience working with data engineering, backend development, cloud and AI/ML engineering. I currently work at Jarvis as a data engineer, where I work on projects that will prepare me for industry level work in the future. I am eager to contribute to meaningful projects where I can use my problem-solving and programming skills to create impactful solutions."
+}
